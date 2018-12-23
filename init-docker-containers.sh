@@ -2,9 +2,7 @@
 
 # Load Variables
 source config.sh
-
-echo $OPENDAP_CONTAINER_NAME
-
+    
 docker container stop $(docker container ls -a -q --filter name=$OPENDAP_CONTAINER_NAME)
 docker container stop $(docker container ls -a -q --filter name=$PHPLDAPADMIN_CONTAINER_NAME)
 
