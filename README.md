@@ -19,11 +19,10 @@ git clone https://github.com/vikasjayaram/docker-openldap-scripts.git
 ```
 
 - $ cd docker-openldap-scripts
-- Follow the below command to make the diles executable.
+- Follow the below command to make the files executable.
 - $ chmod u+x init-docker-containers.sh
 - $ chmod u+x add-ldap-users.sh
 - Run `./init-docker-containers.sh` to create and install OpenLDAP and PhPLDAPAdmin containers.
 - Once the command is run and successfully executed LDAP user and Password will be printed in the console.
 - Goto `https://localhost:6443` to login into the LDAP administration dashboard.
 - Run `./add-ldap-users.sh` to create the users from the `ldap-users` directory.
-
