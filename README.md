@@ -34,6 +34,6 @@ git clone https://github.com/vikasjayaram/docker-openldap-scripts.git
 - Create a file `{filename}.ldif` in the `ldap-users` directory
 - There is a sample in `ldap-users` directory.
 - The password is `42`
-- You can copy and change the following attruibutes to create a new user `CN, SN, UID etc`.
+- You can copy and change the following attributes to create a new user `CN, SN, UID etc`.
 - Use the `slappasswd -s {password}` to generate the `userPassword`.
 - Run `./add-ldap-users.sh` to create the users from the `ldap-users` directory.
