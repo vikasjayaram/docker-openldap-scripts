@@ -2,12 +2,12 @@
 
 # Load Variables
 source config.sh
-    
-docker container stop $(docker container ls -a -q --filter name=$OPENDAP_CONTAINER_NAME)
-docker container stop $(docker container ls -a -q --filter name=$PHPLDAPADMIN_CONTAINER_NAME)
 
-docker container rm $(docker container ls -a -q --filter name=$OPENDAP_CONTAINER_NAME)
-docker container rm $(docker container ls -a -q --filter name=$PHPLDAPADMIN_CONTAINER_NAME)
+# docker container stop $(docker container ls -a -q --filter name=$OPENDAP_CONTAINER_NAME)
+# docker container stop $(docker container ls -a -q --filter name=$PHPLDAPADMIN_CONTAINER_NAME)
+
+# docker container rm $(docker container ls -a -q --filter name=$OPENDAP_CONTAINER_NAME)
+# docker container rm $(docker container ls -a -q --filter name=$PHPLDAPADMIN_CONTAINER_NAME)
 
 # run your container
 docker run  -p 389:389 -p 689:689 --name "$OPENDAP_CONTAINER_NAME" --hostname "$LDAP_HOSTNAME" \
