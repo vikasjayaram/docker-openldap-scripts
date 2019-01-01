@@ -29,6 +29,7 @@ git clone https://github.com/vikasjayaram/docker-openldap-scripts.git
 - Run `./add-ldap-users.sh` to create the users from the `ldap-users` directory.
 - Run `./stop-docker-containers.sh` to stop the running LDAP containers.
 - Run `./start-docker-containers.sh` to start the LDAP containers.
+- Run `./destroy-containers.sh` to delete the containers.
 
 ### How to create LDAP users.
 
