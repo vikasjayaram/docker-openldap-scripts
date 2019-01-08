@@ -1,15 +1,16 @@
-dn: uid=john,dc=example,dc=org
+dn: uid=john,dc=auth0dse,dc=local
 changetype: add
 uid: john
 cn: john
 sn: doe
 objectClass: top
 objectClass: posixAccount
+objectClass: person
 objectClass: inetOrgPerson
 loginShell: /bin/bash
 homeDirectory: /home/john
 uidNumber: 14583103
 gidNumber: 14564100
 userPassword: {SSHA}skpzhOLd8bNdQXtHSj30lZ1LGfIA0Vjx
-mail: john@example.org
+mail: john@auth0dse.local
 gecos: John Doe

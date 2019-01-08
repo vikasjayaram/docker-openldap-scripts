@@ -1,4 +1,4 @@
-dn: uid=billy,dc=example,dc=org
+dn: uid=billy,dc=auth0dse,dc=local
 changetype: add
 uid: billy
 cn: billy
@@ -6,10 +6,11 @@ sn: puffing
 objectClass: top
 objectClass: posixAccount
 objectClass: inetOrgPerson
+objectClass: person
 loginShell: /bin/bash
 homeDirectory: /home/billy
 uidNumber: 14583102
 gidNumber: 14564100
 userPassword: {SSHA}skpzhOLd8bNdQXtHSj30lZ1LGfIA0Vjx
-mail: billy@example.org
+mail: billy@auth0dse.local
 gecos: Billy Puffing
