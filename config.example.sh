@@ -14,6 +14,6 @@ PHPLDAPADMIN_HOSTNAMENAME="phpldapadmin.auth0dse.local"
 LDAP_USER_DIR="./ldap-users"
 CONTAINER_LDIF_PATH="/container/service/slapd/assets/test"
 # LDAP DOCKER IMAGE
-LDAP_DOCKER_IMAGE="osixia/openldap:1.2.2"
+LDAP_DOCKER_IMAGE="osixia/openldap:1.3.0"
 # PHP LDAP DOCKER IMAGE
-PHP_LDAP_DOCKER_IMAGE="osixia/phpldapadmin:0.7.2"
+PHP_LDAP_DOCKER_IMAGE="osixia/phpldapadmin:0.9.0"
